@@ -9,6 +9,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 import InputSlider from "./Slider";
 import Switch from "./Switch";
+import SoundQuality from "./SoundQuality";
 
 const useStyles = makeStyles({
   root: {
@@ -102,8 +103,7 @@ class Dashboard extends Component {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              {/* <InputSlider />
-              <Switch /> */}
+              <SoundQuality />
             </CardActions>
           </Card>
         </div>
