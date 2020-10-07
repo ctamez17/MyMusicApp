@@ -19,7 +19,7 @@ const useStyles = makeStyles({
   },
 });
 
-const classes = useStyles();
+const classes = useStyles;
 
 class Dashboard extends Component {
   state = {
